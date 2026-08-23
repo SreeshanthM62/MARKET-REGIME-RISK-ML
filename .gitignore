@@ -1,5 +1,6 @@
 __pycache__/
 *.py[cod]
+
 .venv/
 .env
 .ipynb_checkpoints/
@@ -8,6 +9,3 @@ __pycache__/
 data/raw/*.csv
 data/processed/*.csv
 results/charts/*
-results/metrics/*.json
-results/metrics/*.csv
-results/predictions/*.csv

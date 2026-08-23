@@ -1,0 +1,90 @@
+{
+  "best_model": "Logistic Regression",
+  "target_horizon_days": 20,
+  "bearish_threshold": 0.0012731533732138177,
+  "bullish_threshold": 0.025168481106611646,
+  "train_period": [
+    "2015-03-16",
+    "2020-12-02"
+  ],
+  "validation_period": [
+    "2021-01-04",
+    "2022-12-01"
+  ],
+  "test_period": [
+    "2023-01-03",
+    "2025-12-02"
+  ],
+  "model_metrics": {
+    "Logistic Regression": {
+      "validation": {
+        "accuracy": 0.37060041407867494,
+        "balanced_accuracy": 0.3696467084317551,
+        "macro_precision": 0.3716557261533897,
+        "macro_recall": 0.3696467084317551,
+        "macro_f1": 0.34861111111111115,
+        "bearish_precision": 0.4485981308411215,
+        "bearish_recall": 0.23076923076923078,
+        "neutral_precision": 0.3020833333333333,
+        "neutral_recall": 0.27102803738317754,
+        "bullish_precision": 0.36428571428571427,
+        "bullish_recall": 0.6071428571428571
+      },
+      "test": {
+        "accuracy": 0.3360655737704918,
+        "balanced_accuracy": 0.3197729224081513,
+        "macro_precision": 0.32037946064622974,
+        "macro_recall": 0.3197729224081513,
+        "macro_f1": 0.3189418295462834,
+        "bearish_precision": 0.2653061224489796,
+        "bearish_recall": 0.3155339805825243,
+        "neutral_precision": 0.2658959537572254,
+        "neutral_recall": 0.23469387755102042,
+        "bullish_precision": 0.4299363057324841,
+        "bullish_recall": 0.4090909090909091
+      }
+    },
+    "Random Forest": {
+      "validation": {
+        "accuracy": 0.3747412008281574,
+        "balanced_accuracy": 0.38198224413177684,
+        "macro_precision": 0.35913624668444033,
+        "macro_recall": 0.38198224413177684,
+        "macro_f1": 0.34298076747520145,
+        "bearish_precision": 0.3516483516483517,
+        "bearish_recall": 0.15384615384615385,
+        "neutral_precision": 0.32978723404255317,
+        "neutral_recall": 0.2897196261682243,
+        "bullish_precision": 0.3959731543624161,
+        "bullish_recall": 0.7023809523809523
+      },
+      "test": {
+        "accuracy": 0.35382513661202186,
+        "balanced_accuracy": 0.3461981615240977,
+        "macro_precision": 0.35459614225437014,
+        "macro_recall": 0.3461981615240977,
+        "macro_f1": 0.34054426865962845,
+        "bearish_precision": 0.275,
+        "bearish_recall": 0.42718446601941745,
+        "neutral_precision": 0.2571428571428571,
+        "neutral_recall": 0.22959183673469388,
+        "bullish_precision": 0.5316455696202531,
+        "bullish_recall": 0.38181818181818183
+      }
+    }
+  },
+  "strategy_metrics": {
+    "total_return": 0.20374556090154106,
+    "annualized_return": 0.0660141949182711,
+    "annualized_volatility": 0.10962766558943654,
+    "sharpe": 0.6380953804109495,
+    "max_drawdown": -0.1470320794146447
+  },
+  "buy_hold_metrics": {
+    "total_return": 0.789638191768216,
+    "annualized_return": 0.2221839619830397,
+    "annualized_volatility": 0.15531612843952577,
+    "sharpe": 1.3694409587249876,
+    "max_drawdown": -0.18998904129504934
+  }
+}
